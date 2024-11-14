@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Help Center</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('image.png'); /* Update with your background image path */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: blur(5px); /* Optional: to blur the background slightly */
+  }
+
+  .help-center-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    z-index: 1;
+  }
+
+  .help-center-container h1 {
+    color: #1a73e8;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .help-center-container p {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .call-button {
+    display: inline-block;
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .call-button:hover {
+    background-color: #145dbd;
+  }
+
+  .footer-text {
+    color: #666;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="help-center-container">
+  <h1>Help Center</h1>
+  <p>If you're facing issues with your account, we're here to help! Click the button below to call Go Fast Support directly.</p>
+  <a href="tel:+18449066222" class="call-button">Call Now +1(844)906-6222</a>
+  <p class="footer-text">By clicking Call Now, you will be connected to an expert.</p>
+</div>
+
+</body>
+</html>
